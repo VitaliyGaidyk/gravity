@@ -1,0 +1,69 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F4F4;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #151515;
+}
+
+a {
+    color: inherit;
+
+}
+
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #222222;
+    margin: 0;
+}
+
+span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #8F8F8F;
+    opacity: 0.7;
+}
+
+li {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(#222222, .3);
+}
+
+a {
+    text-decoration: none;
+}
+
+button:active,
+button:focus {
+    outline: none !important;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(#222222, .7);
+    margin: 0;
+}
+
+.container {
+    padding-left: 120px;
+}
