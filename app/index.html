@@ -11,15 +11,46 @@
 <body>
 
     <header class="header">
+
+        <nav class="navigation">
+            <div class="menuToggle">
+
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul class="menu">
+                    <li><a class="section__services-link" href="#">Multimedia</a></li>
+                    <li><a class="section__services-link" href="#">Interactive design</a></li>
+                    <li><a class="section__services-link" href="#">Packaging</a></li>
+                    <li><a class="section__services-link" href="#">Branding</a></li>
+                    <li><a class="section__services-link" href="#">Creative Strategy</a></li>
+                    <li><a class="section__services-link" href="#">UI/UX </a></li>
+                    <li><a class="section__services-link" href="#">Coding </a></li>
+
+                </ul>
+            </div>
+        </nav>
+
         <div class="header__menu">
             <div class="header__menu-logo animate__animated animate__zoomIn">
                 <img src="images/svg/header-logo.svg" alt="">
             </div>
             <div class="header__menu-search">
-                <form class="header__menu-form">
+
+                <form action="" class="search-bar">
+                    <input type="search" name="search" pattern=".*\S.*" required>
+                    <button class="search-btn" type="submit">
+                        <span>Search</span>
+                    </button>
+                </form>
+
+                <!-- <form class="header__menu-form">
                     <input class="header__menu-input" type="text" placeholder="Search heare...">
                     <button class="header__menu-button" type="submit"></button>
-                </form>
+                </form> -->
             </div>
             <div class="header__menu-burger">
                 <img src="images/svg/header-icon-2.svg" alt="">
